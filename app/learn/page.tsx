@@ -1,7 +1,10 @@
+import Child from "./child";
+
+
 const LearnPage: React.FC = () => {
   return (
     <div>
-      2131
+      is my child: <Child name="chil111d" />
     </div>
   );
 }
